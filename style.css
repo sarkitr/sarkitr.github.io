@@ -1,11 +1,12 @@
-header{
-	background-color: blue;
+header {
+	background-color: gray;
+	
 }
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: white;
+  background-color: #F8F9F9;
 }
 nav li {
   display: inline;
@@ -16,3 +17,45 @@ nav li a{
 main{
 	padding-left: 20px;
 	padding-right: 20px;
+	font-size: 14;
+}
+body {
+	background-color: #F8F9F9;
+}
+
+h1.heading-white{
+	color:white
+}
+
+.centered-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.call-to-action {
+	margin: 60px 0;
+	text-align: center;
+}
+
+.call-to-action a {
+	display: inline-block;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	background: red;
+	color: #fff;
+}
+
+h2.heading-1 {
+	font-size: 20px;
+}	
+
+h2.heading-2 {
+	font-size: 28px;
+}
+h2.heading-3 {
+	font-size: 40px;
+}	
